@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+body {
+    background-color: #FFEAAE;
+}
+
+/*****************************************/
+/********** SECTION HEADER-HERO **********/
+/*****************************************/
+
 .hero {
     background: url(../img/bar-ge003af24c_1280.png), lightgray 50% / cover no-repeat;
     height: 179px;
@@ -18,7 +26,7 @@ header {
     flex-shrink: 0;
 }
 
-h1 {
+.header-title {
     color: var(--Amber, #FFC100);
     font-family: Arial;
     font-size: 24px;
@@ -27,7 +35,7 @@ h1 {
     line-height: 70%; /* 16.8px */
     text-transform: uppercase;
     /* padding: 8px 0; */
-    margin: 10px 0git a;
+    margin: 10px 0;
 }
 
 button {
@@ -50,4 +58,95 @@ button {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+}
+
+/*****************************************/
+/*********** MAIN ET SECTIONS ************/
+/*****************************************/
+
+main {
+    display: flex;
+    /* width: 360px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.section1 {
+    display: flex;
+    width: 100%;
+    /* width: 360px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px; 
+}
+
+.section-title {
+    display: flex;
+    width: 100%;
+    /* width: 360px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    gap: 3px;
+    background: var(--UT-orange, #FF8200);
+}
+
+.section-title h2 {
+    color: var(--Smoky-black, #0A0903);
+    text-align: center;
+    /* Sub title */
+    font-family: Arial;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section-title h1 {
+    color: var(--Vanilla, #FFEAAE);
+    text-align: center;
+    /* Title 1 */
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.section-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8px;
+    gap: 9px
+}
+
+.section-body-txt {
+    color: #000;
+    /* Standard */
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.section-body-txt span {
+    color: #000;
+    /* Bold */
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 150% */
+}
+
+.section-body img {
+    width: 168px;
+    height: 228px;
 }
