@@ -141,8 +141,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    /* margin: 0 8px; */
-    /* gap: 9px */
+
 }
 
 .section-body-txt {
@@ -155,6 +154,10 @@ main {
     line-height: 18px;
 }
 
+.section2-body-txt {
+    margin: 16px 8px;
+}
+
 .section-body-txt span {
     color: #000;
     /* Bold */
@@ -165,18 +168,43 @@ main {
     line-height: 18px; /* 150% */
 }
 
-.section-body-img {
+.section1-body-img {
     width: 168px;
     height: 228px;
     flex-shrink: 0;
     background: url(../img/pexels-thgusstavo-santana-3988530.jpg), lightgray 50% / cover no-repeat;
 }
 
-.section1-body img {
-    width: 168px;
-    height: 228px;
+.section2-body-img {
+    width: 100%;
+    /* width: 360px; */
+    height: 194px;
+    flex-shrink: 0;
+    background: url(../img/photo-andre-siclet-1463856947.png), lightgray 50% / cover no-repeat;
 }
 
-.section1-body img {
-    width: 100%;
+.zonePortaits {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+    margin-bottom: 16px;
+}
+
+.portrait-img-nom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.portrait-nom {
+    color: #000;
+
+    text-align: center;
+    /* Sub title */
+    font-family: Arial;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
 }
