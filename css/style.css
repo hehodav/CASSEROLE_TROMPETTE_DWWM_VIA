@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../img/bar-ge003af24c_1280.png);
+    height: 179px;
+    padding-right: 9px;
+}
+
+h1 {
+    color: var(--Amber, #FFC100);
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70%; /* 16.8px */
+    text-transform: uppercase;
+    padding: 8px 0;
+}
+
+button {
+    display: flex;
+    width: 111px;
+    height: 32px;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    border: 1px solid var(--Amber, #FFC100);
+    border-radius: 16px;
+    background: var(--Amber, #FFC100);
+    margin-top: 9px;
+    color: var(--Smoky-black, #0A0903);
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
