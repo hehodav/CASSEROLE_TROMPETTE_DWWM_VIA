@@ -73,7 +73,7 @@ main {
     gap: 16px;
 }
 
-.section1 {
+.section1, .section3 {
     display: flex;
     width: 100%;
     /* width: 360px; */
@@ -208,3 +208,75 @@ main {
     font-weight: 400;
     line-height: normal;
 }
+
+.section3-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 16px;
+}
+
+.card-part {
+    display: flex;
+    width: 342px;
+    justify-content: center;
+    /* align-items: flex-start; */
+    gap: 8px;
+}
+
+.card-plate {
+    display: flex;
+    width: 142px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid var(--Red, #F00);
+    background: var(--white-85, rgba(255, 255, 255, 0.85));
+}
+
+h3 {
+    align-self: stretch;
+    color: var(--Smoky-black, #0A0903);
+    /* Card title */
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+hr {
+    height: 2px;
+    align-self: stretch;
+    background: var(--Red, #F00);
+}
+
+.card-price {
+    color: var(--Red, #F00);
+    /* Price */
+    font-family: Arial;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    align-self:last baseline;
+}
+
+.card-lst {
+    padding-left: 15px;
+}
+
+.card-itm {
+    color: var(--Smoky-black, #0A0903);
+    /* Standard */
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+    align-self: stretch;
+    }
